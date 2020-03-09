@@ -1,0 +1,54 @@
+﻿<Window x:Class="Piano.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Piano"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="533.5" Width="723">
+    <Grid Margin="0,0,2,0" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.095"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="102,0,0,0"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="67,0,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="204,0,0,0"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="306,0,0,0"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="408,0,0,0"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="510,0,0,0"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="612,0,-1,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.022"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="278" Margin="170,0,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="373,0,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="170,0,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="475,0,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="577,0,0,0" Background="Black"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" Margin="31,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Margin="138,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Margin="239,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="F" VerticalAlignment="Top" Margin="340,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="G" VerticalAlignment="Top" Margin="445,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="A" VerticalAlignment="Top" Margin="543,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="B" VerticalAlignment="Top" Margin="647,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
+
+    </Grid>
+</Window>
