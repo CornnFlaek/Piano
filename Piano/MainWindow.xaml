@@ -21,13 +21,13 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Click="Button_Click"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="102,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="67,0,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="204,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="306,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="408,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="510,0,0,0"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="612,0,-1,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3">
+        <Button x:Name="btRe" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="102,0,0,0" Click="BtRe_Click"/>
+        <Button x:Name="btnDoSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="67,0,0,0" Background="Black" Click="BtnDoSos_Click"/>
+        <Button x:Name="btnMi" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="204,0,0,0" Click="BtnMi_Click"/>
+        <Button x:Name="btnFa" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="306,0,0,0" Click="BtnFa_Click"/>
+        <Button x:Name="btnSol" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="408,0,0,0" Click="BtnSol_Click"/>
+        <Button x:Name="btnLa" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="510,0,0,0" Click="BtnLa_Click"/>
+        <Button x:Name="btnSi" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Height="503" Background="White" Margin="612,0,-1,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="3" Click="BtnSi_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -38,10 +38,10 @@
             </Button.RenderTransform>
         </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="278" Margin="170,0,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="373,0,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="170,0,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="475,0,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="577,0,0,0" Background="Black"/>
+        <Button x:Name="btnFaSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="373,0,0,0" Background="Black" Click="BtnFaSos_Click"/>
+        <Button x:Name="btnReSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="170,0,0,0" Background="Black" Click="BtnReSos_Click"/>
+        <Button x:Name="btnSolSs" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="475,0,0,0" Background="Black" Click="BtnSolSs_Click"/>
+        <Button x:Name="btnLaSos" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="69" Height="342" Margin="577,0,0,0" Background="Black" Click="BtnLaSos_Click"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="C" VerticalAlignment="Top" Margin="31,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Margin="138,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="E" VerticalAlignment="Top" Margin="239,437,0,0" FontFamily="RomanC" FontWeight="Bold" FontSize="40"/>
